@@ -2,3 +2,20 @@
     max-width: 80%;
     margin: auto;
 }
+/* benefit mobile style */
+@media only screen and (max-width:639px) {
+    .benefit {
+        display: grid;
+        justify-items: center;
+    }
+    .benefit img {
+        margin-top: 1.2rem;
+    }
+    .benefit-text>h4,p {
+        text-align: center;
+        margin: 1.2rem 0;
+    }
+    .benefit-text {
+        margin: 0;
+    }
+}
