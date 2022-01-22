@@ -1,6 +1,16 @@
 .jacket-img img {
     max-width: 80%;
     margin: auto;
+    transition: .3s;
+}
+.jacket-img:hover img {
+    transform: scale(1.2);
+}
+button {
+    transition: .2s;
+}
+button:hover {
+    background-color: #fabe4c;
 }
 /* benefit mobile style */
 @media only screen and (max-width:639px) {
