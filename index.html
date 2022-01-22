@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion Tailwind</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="icons/penguin.jpg" type="image/x-icon">
     <!-- Tailwind js cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -27,11 +29,14 @@
 
 <body>
     <header class="bg-penguin pb-32 pt-12">
+        <nav>
+
+        </nav>
         <section class="container mx-auto md:flex items-center justify-around">
             <!-- banner details  -->
             <div class="space-y-4 mx-5">
                 <h1 class="text-2xl  sm:text-5xl font-bold uppercase">
-                    <span class="text-jacketprice">Be the Penguin</span>
+                    <span class="text-jacketprice ">Be the Penguin</span>
                     <br>
                     <span>Of winter</span>
                 </h1>
@@ -48,7 +53,7 @@
             </div>
             <!-- banner img  -->
             <div class="pt-8 sm:pt-0">
-                <img class="w-3/4" src="images/model.png" alt="">
+                <img class="w-3/4 sm:w-full" src="images/model.png" alt="">
             </div>
         </section>
     </header>
@@ -221,7 +226,7 @@
         </section>
     </main>
     <footer class="bg-black text-white py-8 mt-8">
-        <h6 class="text-center">All &copy; copyrights reseved by <a href="#">Thakur Saad</a> </h6>
+        <h6 class="text-center text-xs">All &copy; copyrights reseved by <a class="text-jacketprice" href="#">Thakur Saad</a> </h6>
     </footer>
 </body>
 

@@ -11,7 +11,7 @@
     .benefit img {
         margin-top: 1.2rem;
     }
-    .benefit-text>h4,p {
+    .benefit-text>h4, .benefit-text>p {
         text-align: center;
         margin: 1.2rem 0;
     }
